@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
-      - name: 'Make trash commits'
+      - name: 'Produce'
         run: |
           git config --local user.email "levindixon@gmail.com"
           git config --local user.name "Levin Dixon"
